@@ -15,7 +15,7 @@ _Vitruv_ is short for _Vitruvius_ (VIew-cenTRic engineering Using a VIrtual Unde
 ## Usage
 
 In short, Vitruv is realized as a set of Eclipse plug-ins. It depends on the _Eclipse Modeling Framework (EMF)_ as the modelling environment, on _Xtext_ for language development (in particular the languages for specifying how consistency is preserved), and _Xtend_ and _Java_ for code. 
-It can be installed in Eclipse via our [nightly update site](http://vitruv.tools/updatesite/nightly/aggregated). A wiki page provides [detailed instructions for using or extending Vitruv](https://github.com/vitruv-tools/Vitruv/wiki/Getting-Started).
+It can be installed in Eclipse via our [nightly update site](http://vitruv.tools/updatesite/nightly/aggregated). A wiki page provides [detailed instructions for using or extending Vitruv](https://github.com/vitruv-tools/.github/wiki/Getting-Started).
 
 ## Structure
 
