@@ -21,7 +21,7 @@ It can be installed in Eclipse via our [nightly update site](http://vitruv.tools
 
 The Vitruv project is split into several repositories with well defined dependencies:
 
-| Repository | Depends on | Description | CI |
+| Repository | Depends on | Description | &nbsp;&nbsp;&nbsp;CI&nbsp;&nbsp;&nbsp;&nbsp; |
 | ---------- | ---------- | ----------- | -- |
 | [Vitruv-Change](https://github.com/vitruv-tools/Vitruv-Change) | - | Core artifacts for representing model changes and for defining their processing to preserve consistency with the central interface `ChangePropagationSpecification`. In addition, interactions to involve the user into the change preservation process are provided. | [![GitHub Action CI](https://github.com/vitruv-tools/Vitruv-Change/workflows/CI/badge.svg)](https://github.com/vitruv-tools/Vitruv-Change/actions?query=workflow%3ACI) |
 | [Vitruv-DSLs](https://github.com/vitruv-tools/Vitruv-DSLs) | Vitruv-Change | Languages for defining consistency preservation in terms of model transformations. Currently, the `Reactions`, the `Mappings` and the `Commonalities` language are available with different levels of maturity. The `Reactions` language is most used and best maintained one. The DSLs only depend on the change core artifacts but on no other Vitruv artifacts, such that they can be used standalone to define and execute model transformations. | [![GitHub Action CI](https://github.com/vitruv-tools/Vitruv-DSLs/workflows/CI/badge.svg)](https://github.com/vitruv-tools/Vitruv-DSLs/actions?query=workflow%3ACI) |
