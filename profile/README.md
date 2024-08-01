@@ -19,7 +19,7 @@ _Vitruvius_ stands for "VIew-cenTRic engineering Using a VIrtual Underlying Sing
 
 In short, Vitruvius is realized as a set of Eclipse plug-ins.
 It depends on the _Eclipse Modeling Framework (EMF)_ as the modelling environment, on _Xtext_ for language development (in particular the languages for specifying how consistency is preserved), and _Xtend_ and _Java_ for code. 
-It can be installed in Eclipse via our [nightly update site](https://vitruv.tools/updatesite/nightly/aggregated).
+It can be installed in Eclipse via our [nightly update site](https://vitruv-tools.github.io/updatesite/nightly/aggregated).
 A wiki page provides [detailed instructions for using or extending Vitruvius](https://github.com/vitruv-tools/.github/wiki/Getting-Started).
 
 ## Structure
