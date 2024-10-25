@@ -1,5 +1,7 @@
 # Vitruvius
 
+[![DOI](https://zenodo.org/badge/67610524.svg)](https://doi.org/10.5281/zenodo.13991787)
+
 Vitruvius is a framework for view-based (software) development.
 It assumes different models to be used for describing a system, which are automatically kept consistent by the framework executing (semi-)automated rules that preserve consistency.
 These models are modified only via views, which are projections from the underlying models.
