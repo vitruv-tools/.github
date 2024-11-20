@@ -19,9 +19,9 @@ _Vitruvius_ stands for "VIew-cenTRic engineering Using a VIrtual Underlying Sing
 
 ## Usage
 
-In short, Vitruvius is realized as a set of Eclipse plug-ins.
+In short, Vitruvius is realized as a set of Maven projects.
 It depends on the _Eclipse Modeling Framework (EMF)_ as the modelling environment, on _Xtext_ for language development (in particular the languages for specifying how consistency is preserved), and _Xtend_ and _Java_ for code. 
-It can be installed in Eclipse via our [nightly update site](https://vitruv-tools.github.io/updatesite/nightly/aggregated).
+It can be installed via [OSSRH](https://oss.sonatype.org/#nexus-search;gav~tools.vitruv~~~~) (snapshot builds) and, in the future, Maven central.
 A wiki page provides [detailed instructions for using or extending Vitruvius](https://github.com/vitruv-tools/.github/wiki/Getting-Started).
 
 ## Structure
@@ -40,7 +40,4 @@ There are further repositories in this organization with different experiments w
 
 ## Build and Deployment
 
-We build, integrate and deploy our projects using Maven Tycho and GitHub Actions. For details see [our wiki](https://github.com/vitruv-tools/Vitruv/wiki/Build-and-Continuous-Integration).
-The deployment is supported by the two further repositories [updatesite](https://github.com/vitruv-tools/updatesite) and [Vitruv-Build-AggregatedUpdateSite](https://github.com/vitruv-tools/Vitruv-Build-AggregatedUpdateSite).
-All repositories generate Eclipse update sites out of their artifacts and deploy them to the [updatesite](https://github.com/vitruv-tools/updatesite) repository.
-From these artifacts, an aggregated update site is created running the workflow of the [Vitruv-Build-AggregatedUpdateSite](https://github.com/vitruv-tools/Vitruv-Build-AggregatedUpdateSite) project, from which Vitruvius with all its dependencies can then be installed within Eclipse.
+We build, integrate and deploy our projects using Maven and GitHub Actions. For details see [our wiki](https://github.com/vitruv-tools/Vitruv/wiki/Build-and-Continuous-Integration).
