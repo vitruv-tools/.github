@@ -40,4 +40,4 @@ There are further repositories in this organization with different experiments w
 
 ## Build and Deployment
 
-We build, integrate and deploy our projects using Maven and GitHub Actions. For details see [our wiki](https://github.com/vitruv-tools/Vitruv/wiki/Build-and-Continuous-Integration).
+We build, integrate and deploy our projects using Maven and GitHub Actions. For details see [our wiki](https://github.com/vitruv-tools/.github/wiki/Build-and-Continuous-Integration).
